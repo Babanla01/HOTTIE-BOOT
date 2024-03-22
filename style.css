@@ -1,0 +1,325 @@
+.hero{
+    background: 
+    url(./Asset/background.avif);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow-x: hidden;
+}
+.hero-black{
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.navigations{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: rgb(253,110,41) ;
+    overflow: scroll;  
+}
+@media (max-width:567px){
+    .navigations{
+        display:block;
+          
+    }
+}
+.navigations ul{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-left: 5px;
+    margin-right: 20px;
+    margin-top: 5px;
+    list-style-type: none;
+}
+.navigations a{
+    color: black;
+    font-size: 18px;
+    transition: .5s;
+    text-decoration: none;
+}
+.timing p:first-child{
+    color: rgb(243, 69, 5);
+    font-size: 12px;
+}
+.timing p:nth-child(2){
+    color: green;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.tel{
+    background-color: black;
+    padding: 10px;
+    transition: .5s;
+}
+.tel a{
+    color: white;
+    transition: .5s;
+}
+.landing-content h1{
+    font-size: 70px;
+    color: white;
+}
+.landing-content p{
+    color: white;
+    font-size: 17px;
+    margin-top: 15px;
+}
+.landing-content span{
+    color: rgb(253,110,41) ;
+}
+.landing-content button{
+ width: 170px;
+ padding: 15px;
+ border-radius: 25px;
+ border: none;
+ margin-top: 20px;
+ color: white;
+ font-size: 15px;
+ background: 
+ linear-gradient(to right, rgb(253,110,41),rgb(212,29,23) );   
+}
+.fa-angle-double-right{
+    color: white;
+}
+
+.special-content{
+    width: 40%;
+    padding: 30px;
+    text-align: center;
+    border-radius: 12px;
+    background-color: rgb(255,238,231);
+}
+.special-content h2{
+    font-size: 45px;
+}
+.special-content h2 span{
+    color: rgb(253,110,41);
+}
+.mat{
+    font-size: 17px;
+    line-height: 1.5;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    word-spacing: 2px;
+}
+.mat span{
+    color: rgb(253,110,41);
+}
+.order{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    margin: 30px auto;
+    border-radius: 10px;
+    padding: 15px;
+}
+.order-counter{
+    background-color: rgb(255,238,231);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    transform: rotate(50deg);
+    border-radius: 12px;
+}
+.content-wrapper {
+    /* Counter-rotate the nested container to cancel out the rotation */
+    transform: rotate(-50deg);
+  }
+.order-btn button{
+    width: 120px;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    background-color:  rgb(253,110,41);
+    color: #fff;
+}
+.counter{
+    transform: rotate(310deg);
+    text-align: center;
+}
+.order-pricing p:nth-child(2){
+    font-size: 13px;
+    margin-top: 8px;
+}
+.order-pricing p:first-child{
+    font-size: 24px;
+    color:rgb(253,110,41) ;
+}
+.order-pricing p span{
+    font-size: 16px;
+}
+.feature{
+    background-color: rgb(253,110,41) ;
+    color: white;
+}
+.choose-food{
+    gap: 1rem;
+}
+.grid-item{
+    background-color: rgb(255,238,231);
+}
+.cell-content{
+background-color: #fff;
+
+}
+.cell-content li{
+    list-style-type: none;
+}
+.grid-price li{
+    font-size: 30px;
+    color:  rgb(253,110,41);
+    font-weight: 700;
+}
+.grid-price li span{
+    font-size: 20px;
+    color: black;
+}
+
+.french{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    text-align: center;
+    background: 
+ linear-gradient(to right, rgb(253,110,41),rgb(212,29,23) );
+}
+.frenchs{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.french p{
+    text-align: center;
+    margin-top: 20%;
+    font-size: 40px;
+    color: white;
+}
+.french p span{
+    font-size: 30px;
+    color: yellow;
+}
+.today-offer{
+    /* height: 100vh; */
+    color: white;
+    background-image: url(./Asset/burger-fries-cutting-board-black-rustic-background-145407789.webp);
+    background-size: cover;
+    background-position: center;
+}
+.price button{
+    width: 150px;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(253,110,41);
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.price-content p:first-child{
+    font-size: 50px;
+    color: rgb(253,110,41);
+}
+.price-content p:nth-child(2){
+    margin-top: -20px;
+    font-size: 18px;
+}
+.taste h3{
+    font-size: 40px;
+}
+.taste p{
+    /* width: 40ch; */
+    font-size: 20px;
+}
+.play{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: gold;
+}
+.plays{
+    gap: 3rem;
+    border-left: 1px dashed white;
+    /* border-spacing: 50px; */
+}
+.plays p{
+    font-size: 24px;
+}
+.icons li{
+    list-style-type: none;
+    background-color:grey;
+    padding: 10px;
+    height: 50px;
+    border-radius: 4px;
+    display: flex;justify-content: center;
+    align-items: center;
+}
+.icons{
+    gap: 1rem;
+}
+.icons i{
+    font-size: 30px;
+}
+.phones li{
+    list-style-type: none;
+}
+.opening{
+    background-color:  rgb(255,238,231);
+}
+.hhrs{
+    gap: 2px;
+}
+.hhrs hr{
+    border: 3px solid  rgb(253,110,41);
+}
+.locate{
+    gap: 1.7rem;
+}
+.foot{
+    background-color:  rgb(255,238,231);
+}
+.far{
+    gap: 10px;
+}
+@media (min-width:1140px){
+    .hero{
+        height: 90vh;
+    }
+    .today-offer{
+        height: 100vh;
+    }
+}
+@media (max-width:960px){
+    .special-content{
+        width: 100%;
+    }
+}
+@media (max-width:575px){
+    .plays{
+        border: none;
+    }
+    .tasty{
+        border-radius: 8px;
+    }
+    .foot a, .foot p{
+        font-size: 14px;
+    }
+}
